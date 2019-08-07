@@ -81,7 +81,7 @@
         </div>
         <div class="form-group">
           <label>Nama barang</label>
-          <input required="" type="text" name="nama_barang" class="form-control" required="">
+          <input required="" type="text" name="nama_produk" class="form-control" required="">
         </div>
       </div>
     </form>
