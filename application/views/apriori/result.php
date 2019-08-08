@@ -22,7 +22,7 @@
             <!-- /.box-header -->
             <div class="box-body">
               <div class="table-responsive">
-                <table class="table-striped">
+                <!-- <table class="table-striped">
                   <thead>
                     <tr>
                       <th>Nama Produk</th>
@@ -30,7 +30,8 @@
                     </tr>
                   </thead>
                   <?=$apriori?>
-                </table>
+                </table> -->
+                <?=$table?>
               </div>
             </div>
             <!-- /.box-body -->

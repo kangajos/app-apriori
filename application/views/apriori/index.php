@@ -26,6 +26,14 @@
                   <label>Confiden</label>
                   <input type="number" min="20" class="form-control" name="confiden">
                 </div>
+                <div class="form-group">
+                  <label>Mulai</label>
+                  <input type="date" class="form-control" name="start" placeholder="YYYY-MM-DD">
+                </div>
+                <div class="form-group">
+                  <label>Selesai</label>
+                  <input type="date" class="form-control" name="end" placeholder="YYYY-MM-DD">
+                </div>
                 <button type="submit" class="btn btn-info pull-right">Submit</button>
               </form>
             </div>

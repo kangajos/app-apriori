@@ -27,6 +27,7 @@
               <table id="example1"  class="table table-bordered table-striped">
                 <thead>
                 <tr>
+                  <th>Kode Kategori</th>
                   <th>Nama Kategori</th>
                   <th>Action</th>
                 </tr>

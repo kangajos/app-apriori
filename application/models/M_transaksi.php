@@ -14,11 +14,19 @@ class M_transaksi extends CI_Model{
     ->limit(30)
     ->get($this->table);
   }
+  public function betwen($start,$end)
+  {
+    return $this->db
+    ->query("SELECT * FROM detail_transaksi  WHERE tanggal BETWEEN '$start' AND '$end'");
+    // ->where('tanggal >=',$start)
+    // ->where('tanggal <=',$end)
+    // ->get($this->table2); 
+  }
   public function apriori($tanggal)
   {
     return $this->db
-    ->select('kode_barang')
-    // ->join('detail_transaksi','detail_transaksi.Kode_transaksi=transaksi.id')
+    ->select('kategori')
+    ->join('produk','produk.id_produk=detail_transaksi.kode_barang')
     ->where('tanggal',$tanggal)
     ->get($this->table2);
   }

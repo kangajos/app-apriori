@@ -29,6 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	{ 
 
 		$data['tampil'] = $this->M_kategori->all()->result();
+		// print_r($data);
 		$this->load->view('kategori/tampil',$data);
 	}
 	public function update()
